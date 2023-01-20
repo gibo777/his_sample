@@ -1,0 +1,54 @@
+@import"../../root.css";
+
+
+.group-management-div .container {
+    background-color: var(--background-color);
+    border: 4px solid var(--company-color);
+}
+
+.group-management-div input{
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 5px 3px;
+}
+
+.group-management-div select{
+    width: 50%;
+    border: 1px solid var(--border-color);
+    padding: 8px 3px;
+}
+
+.group-management-div .group-table-row {
+    height: 470px;
+    max-height: 470px;
+}
+.group-management-div .group-table-col {
+    height: 460px;
+    max-height: 460px;
+}
+
+.group-management-div .group-table-col table thead{
+    position: sticky;
+    top: 0;
+    background-color: var(--background-color);
+}
+
+.group-management-div .group-table-col table thead tr th:last-child,
+.group-management-div .group-table-col table thead tr th:first-child {
+    border-radius: 0 0 0 0 !important;
+}
+
+
+.group-modal-body input {
+    width: 100%;
+    padding: 2px 3px;
+    border: 1px solid var(--border-color);
+}
+.group-modal-body select {
+    width: 100%;
+    padding: 5px 3px;
+    border: 1px solid var(--border-color);
+}
+.group-modal-body .row {
+    padding: 5px 0px ;
+}

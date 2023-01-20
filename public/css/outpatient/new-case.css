@@ -1,0 +1,139 @@
+@import"../root.css";
+
+/* Medicine Modal CSS */
+
+.medicine-modal-body .search-input {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 3px 5px;
+}
+
+.medicine-modal-body .table-col {
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+    border: 1px solid var(--border-color);
+}
+
+.medicine-modal-body .table-row {
+    background-color: var(--background-color);
+}
+
+
+.medicine-modal-body .bottom-input-button-row input {
+    padding: 2px;
+    border: 1px solid var(--border-color);
+    width: 100%;
+}
+
+.medicine-modal-body .bottom-input-button-row .big-input {
+    height: 85px !important;
+}
+
+.medicine-modal-body .bottom-input-button-row button {
+    width: 100%;
+}
+
+/* End */
+
+/* Packages Modal CSS */
+
+.packages-modal-div input {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 3px;
+}
+
+.packages-modal-div .table-row {
+    height: 350px;
+    max-height: 350px;
+}
+.packages-modal-div .table-col {
+    height: 300px;
+    max-height: 300px;
+}
+
+/* End */
+
+/* ICD MODAL CSS */
+
+.icd-modal-body .search-input {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 3px 5px;
+}
+
+.icd-modal-body .table-col {
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+    border: 1px solid var(--border-color);
+}
+
+.icd-modal-body .table-row {
+    background-color: var(--background-color);
+}
+
+
+.icd-modal-body .bottom-input-button-row input {
+    padding: 2px;
+    border: 1px solid var(--border-color);
+    width: 100%;
+}
+
+.icd-modal-body .bottom-input-button-row .big-input {
+    height: 85px !important;
+}
+
+.icd-modal-body .bottom-input-button-row button {
+    width: 100%;
+}
+
+/* End */
+
+
+/* RVS MODAL CSS */
+
+.rvs-modal-body .search-input {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 3px 5px;
+}
+
+.rvs-modal-body .table-col {
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+    border: 1px solid var(--border-color);
+}
+
+.rvs-modal-body .table-row {
+    background-color: var(--background-color);
+}
+
+
+.rvs-modal-body .bottom-input-button-row input {
+    padding: 2px;
+    border: 1px solid var(--border-color);
+    width: 100%;
+}
+
+.rvs-modal-body .bottom-input-button-row .big-input {
+    height: 85px !important;
+}
+
+.rvs-modal-body .bottom-input-button-row button {
+    width: 100%;
+}
+
+/* End */
+
+/* Confirmation Modal */
+
+.confirm-modal-body input{
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 2px;
+}
+
+/* End */

@@ -1,0 +1,39 @@
+/* Root of the color | Renedel Malay | 21/11/2022  */
+:root {
+    --header-color: #4E73DF;
+    --sidebar-color: #4E73DF;
+    --sidebar-active-color: #0736c4;
+    --sidebar-submenu-color: #2d5ade;
+    --dark-color: #0736c4;
+    --light-scroll-color: #7998f6;
+    --background-scroll-color: #bfcdf7;
+    --home-background-color: #EAEAEA;
+    --dark-scroll-color: #2d5dec;
+    --text-color-white: white;
+    --text-color-black: black;
+    --border-color: #CED4DA;
+    --container-background-color: #ffffff;
+    --company-color: #1768f3;
+    --nav-border-color: #c5c5c5;
+    --nav-tab-color:#d6d6d6;
+    --table-text-color: #000000;
+    --table-background: #ffffff;
+    --table-border-color: #ffffff;
+    --table-light-background: #f7f7f7;
+    --table-striped-color: #f1f1f1;
+    --tbody-hover: #e5e7edf0;
+    --pagination-bg: #ffffff;
+    --pagination-color-text: #000000;
+    --pagination-active-color-text: #ffffff;
+    --pagination-active-color: #1768f3;
+    --pagination-default: #dcdcdc;
+    --input-bg: #f8fafc;
+    --gray-color: #6D757A;
+    --box-shadow-color: #4E73DF;
+    --active-color: rgba(255, 255, 255, 0.7);
+    --background-color: #fff;
+    --border-bg-color: #4E73DF;
+    --footer-bg-color: #4E73DF;
+}
+
+/* End */

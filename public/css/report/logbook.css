@@ -1,0 +1,73 @@
+@page {
+    size: auto;
+    margin: 5mm 5mm 10mm 5mm;
+}
+
+/* @media screen {
+.footer {
+display: none
+}
+}
+@media print {
+.footer {
+position: fixed;
+bottom: 5px;
+left: 10px;
+}
+} */
+@media print {
+    .footer {
+        position: fixed;
+        bottom: 5px;
+        left: 10px;
+        line-height: 0%;
+    }
+
+    /* @page{
+        size: portrait;
+        margin: 6mm 6mm 15mm 6mm;
+    } */
+
+    td {
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-right: 10px;
+        border-radius: 0px 0px 0px 0px !important;
+    }
+
+    tr,
+    th {
+        border-radius: 0px 0px 0px 0px !important;
+
+    }
+
+    .theadz {
+        border-radius: 0px 0px 0px 0px !important;
+    }
+
+    tbody tr:nth-child(even) {
+
+        background-color: rgb(232, 232, 232) !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .thead {
+        background-color: #8ecdf2 !important;
+        color: black !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        border-radius: 0px 0px 0px 0px !important;
+
+    }
+
+    table {
+        border: 1px solid black !important;
+    }
+
+    .printlogbook table tbody tr {
+        border-top: 1px solid black !important;
+        border-bottom: 1px solid black !important;
+
+    }
+}

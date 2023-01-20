@@ -1,0 +1,405 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    body {
+        font-size: 0.6rem !important;
+    }
+
+    /* Login */
+
+    .login-div .carousel-container {
+        display: none !important;
+    }
+
+    /* ......... */
+
+    /* sidebar */
+
+    .sidebar.close.small-screen {
+        width: 0;
+    }
+
+    .sidebar.close.small-screen~.home-section {
+        width: 100%;
+        left: 0;
+        z-index: 900;
+    }
+    .sidebar.close .nav-links li a .link_name {
+        font-size: .6rem !important;
+    }
+
+    .sidebar.close .nav-links li .sub-menu .side-li a{
+        font-size: .7rem;
+    }
+
+    .home-section {
+        display: block !important;
+    }
+
+    .home-section .home-content .row {
+        margin-top: 15px !important;
+    }
+
+    .home-section .home-content .header-icon {
+        margin-top: 15px !important;
+        padding: 15px 0px 0px 6px !important;
+    }
+
+    .home-section .home-content .fa-caret-right,
+    .home-section .home-content .fa-caret-left,
+    .home-section .home-content .bx-menu {
+        font-size: 22px !important;
+    }
+
+    .home-section .home-content .company-name {
+        font-size: 16px !important;
+    }
+
+    .home-section .home-content .text {
+        font-size: 16px !important;
+    }
+
+    #main {
+        margin: 50px 10px 0px 10px !important;
+    }
+
+
+    /* ....... */
+
+
+
+    /* button customize */
+    .new-btn {
+        font-size: .8rem !important;
+    }
+
+    .btn {
+        font-size: .6rem !important;
+    }
+
+    .pagination .page-item .page-link {
+        font-size: .6rem !important;
+    }
+
+    /* ..... */
+
+    .outpatient-profile .patient-col .nav,
+    .inpatient-profile .patient-col .nav,
+    .add-patient .patient-col .nav,
+    .reg-profile .patient-col .nav {
+        justify-content: start !important;
+        display: none;
+    }
+
+    .outpatient-profile .patient-col .nav .nav-item,
+    .inpatient-profile .patient-col .nav .nav-item,
+    .add-patient .patient-col .nav .nav-item,
+    .reg-profile .patient-col .nav .nav-item{
+        display: inline !important;
+    }
+
+    .outpatient-profile .patient-col .nav .nav-item .nav-link,
+    .inpatient-profile .patient-col .nav .nav-item .nav-link,
+    .add-patient .patient-col .nav .nav-item .nav-link,
+    .reg-profile .patient-col .nav .nav-item .nav-link {
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+        font-size: .6rem !important;
+        width: 100% !important;
+        height: 20px !important;
+        text-align: start;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .outpatient-profile .pi-container .col-6,
+    .inpatient-profile .pi-container .col-6,
+    .add-patient .pi-container .col-6,
+    .reg-profile .pi-container .col-6 {
+        width: 100% !important;
+        text-align: left;
+    }
+
+    .inpatient-profile .patient-col #inpatientMenuIcon {
+        display: flex;
+        margin-top: 40px !important;
+        font-size: 16px !important;
+    }
+
+      
+
+    .add-patient .pi-container .add-patient-save-button {
+        margin-top:-30px; 
+    }
+
+
+    /* Add new patient page */
+    .add-patient {
+        text-align: center !important;
+        width: 100% !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .add-patient .patient-info b .patient-name-position {
+        font-size: 0.7rem !important;
+    }
+
+    .add-patient .patient-row .profile-info {
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+        white-space: nowrap !important;
+    }
+
+    .add-patient .patient-row .pi-container .row .col-6 {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .add-patient .patient-row .pi-container .input-custom-1 {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+
+    .add-patient .patient-col {
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+    .add-patient .pi-container {
+        width: 100% !important;
+        display: block;
+        text-align: start;
+        padding: 0px !important;
+    }
+
+    .add-patient .pi-container .row .top-col-size-1,
+    .add-patient .pi-container .row .top-col-size-2 {
+        width: 100% !important;
+    }
+
+    .add-patient .pi-container .row .top-col-size-1 input,
+    .add-patient .pi-container .row .top-col-size-2 input {
+        width: 100% !important;
+    }
+
+    .add-patient .patient-col .row .col-size-1,
+    .add-patient .patient-col .row .col-size-2,
+    .add-patient .patient-col .row .col-size-3,
+    .add-patient .patient-col .row .col-size-4,
+    .add-patient .patient-col .row .col-size-5,
+    .add-patient .patient-col .row .p-input-size-1,
+    .add-patient .patient-col .row .p-input-size-2,
+    .add-patient .patient-col .row .p-input-size-3,
+    .add-patient .patient-col .row .p-input-size-4,
+    .add-patient .patient-col .row .p-input-size-5 {
+        width: 100% !important;
+    }
+
+    .add-patient .pi-container .row {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .add-patient .pi-container .row .new-btn {
+        margin-top: 5px !important;
+        width: 70px !important;
+    }
+
+    .add-patient .pi-container .row .top-col-size-2 {
+        width: 100% !important;
+        text-align: start !important;
+    }
+
+    .add-patient .pi-container .row .top-col-size-2 input {
+        width: 10px !important;
+    }
+
+    .add-patient .bi-container .bi-col-size-1,
+    .add-patient .bi-container .bi-col-size-2 {
+        width: 100% !important;
+        display: block !important;
+        text-align: start !important;
+    }
+
+    .add-patient .bi-container .bi-col-size-1 input,
+    .add-patient .bi-container .bi-col-size-2 input,
+    .add-patient .bi-container .new-btn {
+        width: 100% !important;
+    }
+
+    .add-patient .bi-container .bi-btn-col-1 {
+        width: 55% !important;
+    }
+
+    .add-patient .bi-container .bi-btn-col-2 {
+        width: 45% !important;
+    }
+
+    .add-patient .bi-container .bi-btn-col-2 .new-btn {
+        width: 70px !important;
+    }
+
+    .add-patient .bi-container .bi-top-col {
+        width: 100% !important;
+        text-align: start !important;
+        display: inline !important;
+    }
+
+    /* ...... */
+
+    /* medical information modal | Renedel Malay | 20/12/2022 */
+    .medical-condition-div .row .col,
+    .medical-condition-div .row .col-2 {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .medical-condition-col {
+        max-height: 200px !important;
+        height: 200px !important;
+    }
+
+    .medical-condition-div .btn-left-row {
+        width: 50% !important;
+    }
+
+    .medical-condition-div .btn-right-row {
+        width: 50% !important;
+    }
+
+    .medical-condition-div .col-2 .row .btn-left-row .fa-circle-chevron-right,
+    .medical-condition-div .col-2 .row .btn-right-row .fa-circle-chevron-left {
+        transform: rotateZ(90deg);
+    }
+
+    /* End */
+
+    /* registration information responsive */
+
+    .reg-profile .patient-container {
+        text-align: center !important;
+        width: 100% !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .reg-profile .patient-container .profile-info {
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .reg-profile .patient-container .patient-col {
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+
+    .reg-profile .patient-container .pi-container {
+        width: 100% !important;
+        display: block;
+        text-align: start;
+        padding: 0px !important;
+    }
+
+    .reg-profile .pi-container .row .top-col-size-1,
+    .reg-profile .pi-container .row .top-col-size-2 {
+        width: 100% !important;
+    }
+
+    .reg-profile .pi-container .row .top-col-size-1 input,
+    .reg-profile .pi-container .row .top-col-size-2 input {
+        width: 100% !important;
+    }
+
+    .reg-profile .patient-col .row .col-size-1,
+    .reg-profile .patient-col .row .col-size-2,
+    .reg-profile .patient-col .row .col-size-3,
+    .reg-profile .patient-col .row .col-size-4,
+    .reg-profile .patient-col .row .col-size-5,
+    .reg-profile .patient-col .row .p-input-size-1,
+    .reg-profile .patient-col .row .p-input-size-2,
+    .reg-profile .patient-col .row .p-input-size-3,
+    .reg-profile .patient-col .row .p-input-size-4,
+    .reg-profile .patient-col .row .p-input-size-5 {
+        width: 100% !important;
+    }
+
+    .reg-profile .pi-container .row {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .reg-profile .pi-container .row .new-btn {
+        margin-top: 5px !important;
+        width: 70px !important;
+    }
+
+    .reg-profile .pi-container .row .top-col-size-2 {
+        width: 100% !important;
+        text-align: start !important;
+    }
+
+    .reg-profile .pi-container .row .top-col-size-2 input {
+        width: 10px !important;
+    }
+
+    .reg-profile .bi-container .bi-col-size-1,
+    .reg-profile .bi-container .bi-col-size-2 {
+        width: 100% !important;
+        display: block !important;
+        text-align: start !important;
+    }
+
+    .reg-profile .bi-container .bi-col-size-1 input,
+    .reg-profile .bi-container .bi-col-size-2 input,
+    .reg-profile .bi-container .new-btn {
+        width: 100% !important;
+    }
+
+    .reg-profile .bi-container .bi-btn-col-1 {
+        width: 55% !important;
+    }
+
+    .reg-profile .bi-container .bi-btn-col-2 {
+        width: 45% !important;
+    }
+
+    .reg-profile .bi-container .bi-btn-col-2 .new-btn {
+        width: 70px !important;
+    }
+
+    .reg-profile .bi-container .bi-top-col {
+        width: 100% !important;
+        text-align: start !important;
+        display: inline !important;
+    }
+
+    /* ............... */
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    
+}
+
+
+

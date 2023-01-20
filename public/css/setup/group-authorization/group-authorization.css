@@ -1,0 +1,95 @@
+@import"../../root.css";
+
+
+/* Group Authorization CSS */
+
+.group-autorization-div .setup-group-autorization-row {
+    height: 620px;
+    max-height: 620px;
+  }
+  
+  /* .group-autorization-div .setup-group-autorization-row .select-user-col select{
+    width: 100% !important;
+    max-width: 100%;
+  }  */
+  
+  .group-autorization-div .setup-group-autorization-col {
+    max-width: 180px !important;
+    height: 510px !important;
+    max-height: 510px !important;
+  }
+  .group-autorization-div .setup-group-autorization-row .table-div{
+    padding: 5px;
+    height: 480px !important;
+  }
+
+  .group-autorization-div .setup-group-autorization-row .setup-group-autorization-col button{
+    /* width: 170px !important; */
+    font-size: 0.8rem !important;
+  }
+  
+  .group-autorization-div .setup-group-autorization-row select{
+    padding: 6px 10px;
+    border: 1px solid var(--border-color);
+  }
+
+  .group-autorization-div .setup-group-autorization-row .table-col {
+    height: 390px !important;
+    max-height: 390px !important;
+  }
+  
+  .group-autorization-div .setup-group-autorization-row table tbody tr {
+    border-top: none !important;
+    border-bottom: 1px solid var(--border-color) !important;
+  }
+  
+  .group-autorization-div .setup-group-autorization-row table tbody tr td{
+    vertical-align: middle !important;
+    padding: 0px 5px;
+  }
+
+  .group-autorization-div .setup-group-autorization-col .loading-row {
+    margin-top: 10% !important;
+  }
+  
+  /* .group-autorization-div .setup-group-autorization-row .table-col table tbody tr td{
+    padding: 5px;
+  } */
+  
+  .group-autorization-div .setup-group-autorization-row th:first-child,
+  .group-autorization-div .setup-group-autorization-row td:first-child,
+  .group-autorization-div .setup-group-autorization-row th:last-child,
+  .group-autorization-div .setup-group-autorization-row td:last-child {
+    border-radius: 0px 0px 0px 0px;
+  }
+  
+  
+  .group-autorization-div .setup-group-autorization-row table > tbody > tr:nth-last-child(even),
+  .group-autorization-div .setup-group-autorization-row table > tbody > tr:nth-last-child(odd){
+    background-color: transparent !important;
+  }
+  .group-autorization-div .setup-group-autorization-row table thead tr{
+    color: var(--text-color-black) !important;
+    background-color: var(--background-color) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+  }
+  .group-autorization-div .setup-group-autorization-row table tbody tr td{
+    padding: 3px 0px;
+  }
+
+  .group-autorization-div .setup-group-autorization-row table thead tr th{
+    padding: 5px;
+  }
+  
+  .group-autorization-div .setup-group-autorization-row .nav .nav-item .active {
+    background-color: var(--home-background-color) !important;
+    border: none !important;
+  }
+  
+
+  .group-autorization-div .setup-group-autorization-row .nav .nav-item .active {
+    background-color: var(--company-color) !important;
+    color: var(--text-color-white) !important;
+  }
+
+  /* End Group Authorization CSS */

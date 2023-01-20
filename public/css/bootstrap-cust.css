@@ -1,0 +1,85 @@
+/* additional bootstrap 5 */
+
+
+.pr-6 {
+    padding-right: 6rem !important;
+}
+
+.pr-7 {
+    padding-right: 7rem !important;
+}
+
+.py-6 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+.mb-6 {
+    margin-bottom: 6rem !important;
+}
+
+.mb-7 {
+    margin-bottom: 7rem !important;
+}
+
+.mb-8 {
+    margin-bottom: 8rem !important;
+}
+
+.mb-9 {
+    margin-bottom: 9rem !important;
+}
+
+.mb-10 {
+    margin-bottom: 10rem !important;
+}
+
+
+.mt-6 {
+    margin-top: 6rem !important;
+}
+
+.mt-7 {
+    margin-top: 7rem !important;
+}
+
+.mt-8 {
+    margin-top: 8rem !important;
+}
+
+.mt-9 {
+    margin-top: 9rem !important;
+}
+
+.mt-10 {
+    margin-top: 10rem !important;
+}
+
+.border-radius-25 {
+    border-radius: 25px !important;
+}
+
+.border-radius-left-25 {
+    border-bottom-left-radius: 25px !important;
+    border-top-left-radius: 25px !important;
+}
+
+.border-radius-right-25 {
+    border-bottom-right-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+}
+
+/* @media (min-width: 1200px) {
+    .modal-xl,
+    .modal-xxl {
+      max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .modal-xxl {
+        max-width: 1200px;
+    }
+} */
+
+/* .......... */
+

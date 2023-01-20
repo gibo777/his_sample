@@ -1,0 +1,17 @@
+@import"../../root.css";
+
+/* Confirmation Modal */
+
+.user-management-confirm-modal-body input{
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 2px;
+}
+
+.user-management-confirm-modal-body textarea{
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 4px;
+}
+
+/* End */

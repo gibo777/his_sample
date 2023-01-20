@@ -1,0 +1,144 @@
+@import"../root.css";
+
+/* Medical Procedure Modal CSS */
+
+.medical-procedure-modal-body .search-input {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 3px 5px;
+}
+
+.medical-procedure-modal-body .table-col {
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+    border: 1px solid var(--border-color);
+}
+
+.medical-procedure-modal-body .table-row {
+    background-color: var(--background-color);
+}
+
+
+.medical-procedure-modal-body .bottom-input-button-row input {
+    padding: 2px;
+    border: 1px solid var(--border-color);
+    width: 100%;
+}
+
+.medical-procedure-modal-body .bottom-input-button-row .big-input {
+    height: 85px !important;
+}
+
+.medical-procedure-modal-body .bottom-input-button-row button {
+    width: 100%;
+}
+
+/* End */
+
+/* Medical Condition Modal CSS */
+
+.medical-condition-modal-body .search-input {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 3px 5px;
+}
+
+.medical-condition-modal-body .table-col {
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+    border: 1px solid var(--border-color);
+}
+
+.medical-condition-modal-body .table-row {
+    background-color: var(--background-color);
+}
+
+
+.medical-condition-modal-body .bottom-input-button-row input {
+    padding: 2px;
+    border: 1px solid var(--border-color);
+    width: 100%;
+}
+
+.medical-condition-modal-body .bottom-input-button-row .big-input {
+    height: 85px !important;
+}
+
+.medical-condition-modal-body .bottom-input-button-row button {
+    width: 100%;
+}
+
+/* End */
+
+/* Family Health Modal CSS */
+
+.family-health-modal-body .search-input {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 3px 5px;
+}
+
+.family-health-modal-body .table-col {
+    width: 100%;
+    height: 350px;
+    max-height: 350px;
+    border: 1px solid var(--border-color);
+}
+
+.family-health-modal-body .table-row {
+    background-color: var(--background-color);
+}
+
+
+.family-health-modal-body .bottom-input-button-row input {
+    padding: 2px;
+    border: 1px solid var(--border-color);
+    width: 100%;
+}
+
+.family-health-modal-body .bottom-input-button-row .big-input {
+    height: 85px !important;
+}
+
+.family-health-modal-body .bottom-input-button-row button {
+    width: 100%;
+}
+
+/* End */
+
+/* Allergies Modal CSS */
+
+.allergies-modal-body input {
+    width: 100%;
+    border: 1px solid var(--border-color);
+}
+
+.allergies-modal-body input {
+    width: 100%;
+    border: 1px solid var(--border-color);
+}
+
+.allergies-modal-body .table-row {
+    height: 310px;
+    max-height: 310px;
+}
+
+.allergies-modal-body .table-col {
+    height: 270px;
+    max-height: 270px;
+}
+
+.allergies-modal-body .table-col table thead {
+    background-color: var(--background-color);
+
+}
+
+.allergies-modal-body .table-col thead th:first-child,
+.allergies-modal-body .table-col thead th:last-child {
+    border-radius: 0px 0px 0px 0px;
+}
+
+
+/* End */
